@@ -1,0 +1,83 @@
+/* Write your CSS here */
+.header-container {
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+.website-logo {
+  height: 50px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .nav-container {
+    padding-top: 26px;
+    padding-bottom: 26px;
+    max-width: 1110px;
+  }
+}
+.link {
+  text-decoration: none;
+}
+.trigger-button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  align-self: flex-end;
+  margin-top: 40px;
+  margin-right: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+.modal-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 458px;
+}
+@media screen and (min-width: 768px) {
+  .modal-container {
+    max-width: 1110px;
+  }
+}
+.ul-container {
+  list-style-type: none;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-text {
+  font-family: 'Roboto';
+  color: #616e7c;
+  font-size: 30px;
+  margin-left: 10px;
+}

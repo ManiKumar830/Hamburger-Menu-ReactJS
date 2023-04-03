@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.about-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+.about-card-container {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6px;
+}
+.about-image {
+  width: 80%;
+  max-width: 468px;
+}
+.about-large-image {
+  display: none;
+  width: 100%;
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .about-image {
+    display: none;
+  }
+  .about-large-image {
+    display: flex;
+  }
+}
